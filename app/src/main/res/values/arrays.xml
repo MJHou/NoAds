@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a_strings">
+        <item>选择复制</item>
+        <item>复制链接</item>
+        <item>屏蔽广告</item>
+        <item>保存网页</item>
+    </string-array>
+    <integer-array name="a_position">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="src_strings">
+        <item>查看图片</item>
+        <item>保存图片</item>
+        <item>屏蔽广告</item>
+    </string-array>
+    <integer-array name="src_position">
+        <item>5</item>
+        <item>6</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="src_link_strings">
+        <item>查看图片</item>
+        <item>保存图片</item>
+        <item>屏蔽广告</item>
+    </string-array>
+    <integer-array name="str_ink_position">
+        <item>5</item>
+        <item>6</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--
+        <item>选择复制1</item>
+        <item>复制链接2</item>
+        <item>屏蔽广告3</item>
+        <item>保存网页4</item>
+        <item>查看图片5</item>
+        <item>保存图片6</item>
+    -->
+</resources>

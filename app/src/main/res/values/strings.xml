@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NoAds</string>
+
+    <string name="affirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="moveViewError">只能有一个子视图</string>
+</resources>

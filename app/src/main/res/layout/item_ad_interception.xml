@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/iv_search"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="删除标示"
+        android:textColor="@drawable/delete_front_selector"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_toLeftOf="@id/tv_delete"
+        android:layout_toRightOf="@id/iv_search"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@drawable/host_front_selector"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>

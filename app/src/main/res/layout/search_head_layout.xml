@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_search_head"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/search_head_color"
+    android:orientation="vertical"
+    android:paddingBottom="7dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/search_head_input_color">
+
+        <ImageView
+            android:id="@+id/iv_url_status"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_lock" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_refresh" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/iv_refresh"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@id/iv_url_status" />
+
+    </RelativeLayout>
+</LinearLayout>

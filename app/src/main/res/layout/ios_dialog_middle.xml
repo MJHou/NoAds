@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/actionsheet_bg_shap"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/lib_view_front_gray"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/sLayout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt_cancel"
+            android:fadingEdge="none">
+
+            <LinearLayout
+                android:id="@+id/lLayout_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/sLayout_content"
+            android:background="@drawable/actionsheet_top_shap"
+            android:gravity="center"
+            android:minHeight="45dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/color_front_normal"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
